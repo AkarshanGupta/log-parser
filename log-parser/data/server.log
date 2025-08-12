@@ -1,0 +1,9 @@
+2025-08-12T10:00:01Z INFO: User login successful for user_id=123 from 192.168.1.10
+2025-08-12T10:01:15Z ERROR: E502 - Database connection failed for 88.201.54.12
+2025-08-12T10:02:30Z WARN: High memory usage detected.
+2025-08-12T10:03:45Z INFO: File uploaded: report.pdf by 192.168.1.10
+2025-08-12T10:04:50Z ERROR: E404 - Resource not found for request from 10.0.0.5
+2025-08-12T10:05:22Z ERROR: E502 - Upstream service timeout for 88.201.54.12
+2025-08-12T10:06:00Z INFO: Service restart initiated.
+2025-08-12T10:07:11Z ERROR: E403 - Forbidden access attempt from 203.0.113.45
+2025-08-12T10:08:19Z ERROR: E502 - Another database issue for 88.201.54.12

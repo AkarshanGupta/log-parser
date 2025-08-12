@@ -1,0 +1,21 @@
+id: log-parser
+title: Summarize Server Log Errors
+instruction: |
+  A web server is producing logs at `/app/data/server.log`.
+  Your task is to write a shell script to parse this file and generate a summary of all ERROR events.
+
+  **Requirements:**
+
+  1.  Process the log file located at `/app/data/server.log`.
+  2.  Identify all lines that contain the string "ERROR".
+  3.  For each error line, extract the source IP address (it's the last word on the line).
+  4.  Count the number of errors that occurred for each unique IP address.
+  5.  Create a CSV file at `/app/reports/error_summary.csv`.
+  6.  The CSV file must contain two columns with a header: `ip_address,error_count`.
+  7.  The data rows in the CSV file must be sorted in descending numerical order based on the `error_count`.
+author: your-email@example.com
+difficulty: easy
+interactive: false
+test:
+  image: laude-institute/terminal-bench-base-test
+  command: /usr/bin/run-tests.sh
