@@ -1,6 +1,5 @@
-Alright, here’s a **clean, professional, single-block README.md** you can copy-paste directly:
 
-```markdown
+
 # 🗂️ Log Parser
 
 A simple and efficient **Bash-based log parsing tool** for reading, filtering, and analyzing server log files.  
@@ -41,7 +40,7 @@ This is useful for:
 ├── docker-compose.yaml   # Optional container orchestration
 └── README.md             # Documentation
 
-````
+
 
 ---
 
