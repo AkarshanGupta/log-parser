@@ -127,9 +127,3 @@ This will execute all test cases in `tests/` and display pass/fail status.
 * All IP addresses, log entries, and data in this project are **dummy** for demonstration purposes.
 * No real system information is exposed.
 
-```
-
-If you use **this** README, it’ll look clean and professional in your submission — with proper formatting, sample output, and clear instructions.  
-
-I can also **customize the sample log** to exactly match your project’s test cases so it looks even more relevant. Do you want me to do that?
-```
